@@ -1,4 +1,4 @@
 working tree
-stagin area
+staging area
 
 git status : git 상태확인
