@@ -1,4 +1,7 @@
-working tree
-staging area
+working tree : 수정 파일들
+staging area : 버전이 만들어지는 파일들
 
 git status : git 상태확인
+git log : 그동안의 기록들 확인
+git diff : 달라진 점 확인
+git reset --hard : 작업했던 내역이 사라지고 이전 상태로 돌아간다.
