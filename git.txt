@@ -4,4 +4,10 @@ staging area : 버전이 만들어지는 파일들
 git status : git 상태확인
 git log : 그동안의 기록들 확인
 git diff : 달라진 점 확인
-git reset --hard : 작업했던 내역이 사라지고 이전 상태로 돌아간다.
+git reset --hard 커밋아이디 : 작업했던 내역이 사라지고 커밋아이디를 가진 상태로 돌아간다.
+git checkout 커밋아이디 : 커밋아이디에 기록되어있는 버전으로 바뀐다.
+git checkout master : 최신상태였던 커밋으로 돌아간다.
+git add . : 현재 디렉토리 아래있는 모든파일을  add시켜준다.
+git commit -am "text" : add와 commit이 한번에 된다. (untracked파일은 안된다.)
+git commit만 작성하게 되면 여러줄의 commit메세지 사용가능
+git config --global core.editor "원하는 에디터" : 에디터를 바꾸고 싶을때 사용가능
